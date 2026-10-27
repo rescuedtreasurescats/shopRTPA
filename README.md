@@ -1,30 +1,9 @@
-# Paws for a Cause — Rescued Treasures
+# Paws for a Cause — Shop RTPA
 
-The starting shop template for **shoprtpa.com**, featuring rescue apparel, cat-and-dog designs, and sweet treats. Products and ordering details will be added later.
+Rescued Treasures Pet Adoptions merchandise hub. Static HTML in dist/.
 
-## Current status
+The featured Rescue Classic shirt uses the approved artwork, with illustrated garment previews. Shopping links go to the exact Amazon brand-search URL supplied by Sue on October 27, 2026. Amazon owns checkout and displays current prices, availability, sizes, colors, delivery, and returns. No on-site payments or inventory.
 
-This is a collection preview. Ordering is not open. Keep GitHub Pages disabled until Sue approves publishing the template.
+More designs and sweet treats are clearly marked as upcoming. Existing cat/dog and cookie concept imagery is retained; it does not depict actual RTPA animals or vendor inventory. Public rescue links use rescued-treasures.com, never the internal volunteer website.
 
-The existing design, wording, collection filters, FAQ sections, and image assets have been preserved from the confirmed template. Search engine indexing remains disabled while the shop is in preparation.
-
-## Files
-
-- `index.html`: the page, styles, collection filters, and FAQ content.
-- `assets/rtpa-logo.png`: Rescued Treasures Pet Adoptions logo.
-- `assets/rescue-pals-v1.png`: generated concept image of a cat and dog.
-- `assets/rescue-cookies-v1.png`: generated concept image of cookies.
-- `CNAME`: the intended GitHub Pages custom domain, `shoprtpa.com`.
-- `.nojekyll`: serves the static files without Jekyll processing.
-
-No build step, application server, database, or installation is required. The site uses Google Fonts with sans-serif fallbacks. All image assets are local to this repository.
-
-## Adding products later
-
-Replace concept cards and images with approved products, accurate descriptions, prices where appropriate, and verified ordering links. Update the ordering FAQ and coming-soon wording when ordering opens. Concept images are not photographs of RTPA animals or confirmed vendor inventory.
-
-## Publishing later
-
-The intended host is GitHub Pages, with DNS managed in Cloudflare. Publish from the selected repository branch and its root folder, set the Pages custom domain to `shoprtpa.com`, then enforce HTTPS after GitHub issues the certificate. The existing GitHub verification TXT record in Cloudflare must remain in place.
-
-Do not commit credentials, banking or tax information, or internal volunteer data.
+The Sites publication is the private review copy. Production is GitHub Pages at shoprtpa.com in rescuedtreasurescats/shopRTPA. Keep CNAME and production hosting configuration unchanged.
