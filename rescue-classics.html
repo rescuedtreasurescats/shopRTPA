@@ -74,70 +74,80 @@
   .catalog-design .holiday-options{grid-template-columns:minmax(0,1fr)}
   .catalog-design .product-photo{height:clamp(175px,60vw,260px)}
 }
+
+.logo-links{min-height:auto;justify-content:flex-start;flex-wrap:wrap;gap:8px;margin-top:14px}
+.logo-links a{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border:1px solid var(--line);border-radius:8px;text-decoration:none;color:var(--deep);font-weight:700}
+.logo-links a:hover{background:#eaf4f3}
+.catalog-design{scroll-margin-top:12px}
+.catalog-design+.catalog-design{border-top:1px solid var(--line);margin-top:24px}
 </style></head><body>
 <header><nav class="wrap" aria-label="Main navigation"><a class="brand" href="./">paws for a cause<i>.</i><small>by Rescued Treasures</small></a><div class="navlinks"><a href="apparel.html">All apparel categories</a></div></nav></header>
 <main class="wrap merch">
 <a href="apparel.html">← All apparel categories</a>
-<div class="merch-heading"><h1>Rescue Classics</h1><p>Choose a garment style. Amazon shows current sizes, colors, and prices.</p></div>
-<section class="catalog-design"><h2 class="category-design">RTPA Logo</h2>
+<div class="merch-heading"><h1>Rescue Classics</h1><p>Pick a logo design, then choose a garment. Amazon shows the available colors, sizes, and prices for each listing.</p></div>
+<nav class="logo-links" aria-label="RTPA logo designs"><a href="#white-lettering">White Lettering</a><a href="#black-lettering">Black Lettering</a><a href="#logo-only">Logo Only</a></nav>
+<section class="catalog-design" id="white-lettering"><h2 class="category-design">White Lettering</h2>
 <div class="holiday-options">
-  <article class="holiday-option product-card">
+<article class="holiday-option product-card">
+    <a class="product-image-link" href="https://www.amazon.com/dp/B0HPK15R19" aria-label="Shop Pullover Hoodie on Amazon">
+      <img class="product-photo" src="https://m.media-amazon.com/images/I/71F54apiQXL._AC_UL320_.jpg" alt="RTPA Logo Pullover Hoodie" loading="lazy">
+    </a>
+    <h3>Pullover Hoodie</h3>
+    <a class="btn" href="https://www.amazon.com/dp/B0HPK15R19">Shop on Amazon ↗</a>
+  </article>
+</div></section>
+<section class="catalog-design" id="black-lettering"><h2 class="category-design">Black Lettering</h2>
+<div class="holiday-options">
+<article class="holiday-option product-card">
     <a class="product-image-link" href="https://www.amazon.com/dp/B0HPFNM1KZ" aria-label="Shop T-Shirt on Amazon">
       <img class="product-photo" src="https://m.media-amazon.com/images/I/71Kd0R7dKzL._AC_UL320_.jpg" alt="RTPA Logo T-Shirt" loading="lazy">
     </a>
     <h3>T-Shirt</h3>
     <a class="btn" href="https://www.amazon.com/dp/B0HPFNM1KZ">Shop on Amazon ↗</a>
   </article>
-  <article class="holiday-option product-card">
+<article class="holiday-option product-card">
     <a class="product-image-link" href="https://www.amazon.com/dp/B0HPY8YLLN" aria-label="Shop V-Neck T-Shirt on Amazon">
       <img class="product-photo" src="https://m.media-amazon.com/images/I/618tQ0irC8L._AC_UL320_.jpg" alt="RTPA Logo V-Neck T-Shirt" loading="lazy">
     </a>
     <h3>V-Neck T-Shirt</h3>
     <a class="btn" href="https://www.amazon.com/dp/B0HPY8YLLN">Shop on Amazon ↗</a>
   </article>
-  <article class="holiday-option product-card">
+<article class="holiday-option product-card">
     <a class="product-image-link" href="https://www.amazon.com/dp/B0HPYLDQR9" aria-label="Shop Long Sleeve T-Shirt on Amazon">
       <img class="product-photo" src="https://m.media-amazon.com/images/I/713ikpGl2ML._AC_UL320_.jpg" alt="RTPA Logo Long Sleeve T-Shirt" loading="lazy">
     </a>
     <h3>Long Sleeve T-Shirt</h3>
     <a class="btn" href="https://www.amazon.com/dp/B0HPYLDQR9">Shop on Amazon ↗</a>
   </article>
-  <article class="holiday-option product-card">
+<article class="holiday-option product-card">
     <a class="product-image-link" href="https://www.amazon.com/dp/B0HPY7MWZY" aria-label="Shop Raglan Baseball Tee on Amazon">
       <img class="product-photo" src="https://m.media-amazon.com/images/I/61+bEmscQLL._AC_UL320_.jpg" alt="RTPA Logo Raglan Baseball Tee" loading="lazy">
     </a>
     <h3>Raglan Baseball Tee</h3>
     <a class="btn" href="https://www.amazon.com/dp/B0HPY7MWZY">Shop on Amazon ↗</a>
   </article>
-  <article class="holiday-option product-card">
+<article class="holiday-option product-card">
     <a class="product-image-link" href="https://www.amazon.com/dp/B0HPY5CZ85" aria-label="Shop Sleeveless Tank Top on Amazon">
       <img class="product-photo" src="https://m.media-amazon.com/images/I/61-ZIaHKNeL._AC_UL320_.jpg" alt="RTPA Logo Sleeveless Tank Top" loading="lazy">
     </a>
     <h3>Sleeveless Tank Top</h3>
     <a class="btn" href="https://www.amazon.com/dp/B0HPY5CZ85">Shop on Amazon ↗</a>
   </article>
-  <article class="holiday-option product-card">
+<article class="holiday-option product-card">
     <a class="product-image-link" href="https://www.amazon.com/dp/B0HPY3FGBS" aria-label="Shop Sweatshirt on Amazon">
       <img class="product-photo" src="https://m.media-amazon.com/images/I/71g5BW3xVrL._AC_UL320_.jpg" alt="RTPA Logo Sweatshirt" loading="lazy">
     </a>
     <h3>Sweatshirt</h3>
     <a class="btn" href="https://www.amazon.com/dp/B0HPY3FGBS">Shop on Amazon ↗</a>
   </article>
-  <article class="holiday-option product-card">
-    <a class="product-image-link" href="https://www.amazon.com/dp/B0HPK15R19" aria-label="Shop Pullover Hoodie · Light lettering on Amazon">
-      <img class="product-photo" src="https://m.media-amazon.com/images/I/71F54apiQXL._AC_UL320_.jpg" alt="RTPA Logo Pullover Hoodie · Light lettering" loading="lazy">
+<article class="holiday-option product-card">
+    <a class="product-image-link" href="https://www.amazon.com/dp/B0HQ521Y5K" aria-label="Shop Pullover Hoodie on Amazon">
+      <img class="product-photo" src="https://m.media-amazon.com/images/I/71YPlO+ugfL._AC_UL320_.jpg" alt="RTPA Logo Pullover Hoodie" loading="lazy">
     </a>
-    <h3>Pullover Hoodie · Light lettering</h3>
-    <a class="btn" href="https://www.amazon.com/dp/B0HPK15R19">Shop on Amazon ↗</a>
-  </article>
-  <article class="holiday-option product-card">
-    <a class="product-image-link" href="https://www.amazon.com/dp/B0HQ521Y5K" aria-label="Shop Pullover Hoodie · Dark lettering on Amazon">
-      <img class="product-photo" src="https://m.media-amazon.com/images/I/71YPlO+ugfL._AC_UL320_.jpg" alt="RTPA Logo Pullover Hoodie · Dark lettering" loading="lazy">
-    </a>
-    <h3>Pullover Hoodie · Dark lettering</h3>
+    <h3>Pullover Hoodie</h3>
     <a class="btn" href="https://www.amazon.com/dp/B0HQ521Y5K">Shop on Amazon ↗</a>
   </article>
-  <article class="holiday-option product-card">
+<article class="holiday-option product-card">
     <a class="product-image-link" href="https://www.amazon.com/dp/B0HR9PTMBW" aria-label="Shop Zip Hoodie on Amazon">
       <img class="product-photo" src="https://m.media-amazon.com/images/I/713-O0oZj9L._AC_UL320_.jpg" alt="RTPA Logo Zip Hoodie" loading="lazy">
     </a>
@@ -145,5 +155,6 @@
     <a class="btn" href="https://www.amazon.com/dp/B0HR9PTMBW">Shop on Amazon ↗</a>
   </article>
 </div></section>
+<section class="catalog-design" id="logo-only"><h2 class="category-design">Logo Only</h2><p>Amazon listings for this design are still being confirmed.</p></section>
 </main>
 <footer><div class="wrap"><p><strong>Paws for a Cause · Shop RTPA</strong><br>© 2026 Rescued Treasures Pet Adoptions</p><div class="footer-links"><a href="https://rescued-treasures.com/" target="_blank" rel="noopener noreferrer">Our rescue</a><a href="mailto:rescuedtreasurescats@gmail.com">Contact us</a></div></div></footer></body></html>
